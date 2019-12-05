@@ -1,1 +1,46 @@
+3.4 构造函数与析构函数
+   3.4.1 构造函数
+   3.4.2 成员初始化列表
+   3.4.3 带默认参数的构造函数
+   3.4.4 析构函数
+   3.4.5 默认的构造函数和默认的析构函数
+   3.4.6 构造函数的重载
+   3.4.7 拷贝构造函数
+   3.4.8 浅拷贝和深拷贝
+   
+   
+3.4.1 构造函数
 
+与使用变量一样,使用对象时也应该“先定义,后使
+用”。在定义对象时,对数据成员赋初值,称为对象的初始
+化。
+
+对象的初始化常采用以下两种方法:
+    1. 调用普通的成员函数来完成
+    2. 调用构造函数来完成
+    
+    1.用普通成员函数对对象进行初始化
+#include<iostream>
+
+using namespace std;
+
+class Date{
+
+public:
+
+void setDate(int y,int m,int d);
+
+void showDate();
+
+private:
+
+int year; int month; int day;
+
+};
+int main()
+
+{ Date date1;
+
+date1.setDate(2010,4,28);
+return 0; 
+}
