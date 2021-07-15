@@ -1,1 +1,24 @@
-
+10.1 The basic concept of address pointer
+10.2 Pointer point to variable and pointer variable point to variable
+10.2.1 Define a pointer variable
+10.2.2 The reference of pointer variable
+10.2.3 Pointer variables as function parameters
+10.2.4 Further explanation of several problems with pointer variables
+10.3 Array pointer and pointer variable point to array
+10.3.1 Pointer point to array element
+10.3.2 Refer to array elements by pointer
+10.3.3 Array name as function parameter
+10.3.4 Pointers and pointer variable point to multidimensional array
+10.4 String pointer and pointer variable point to string
+10.4.1 Representation of the string
+10.4.2 The difference between using string pointer variables and string array
+10.5 Function pointer variable
+10.6 Pointer function
+10.7 Pointer array and pointer point to pointer
+10.7.1 The concept of pointer array
+10.7.2 Pointer point to pointer
+10.7.3 Parameters of the main function
+10.8 Summary of pointer data types and pointer arithmetic
+10.8.1 Summary of pointer data types
+10.8.2 Summary of pointer arithmetic
+10.8.3 Void pointer type
